@@ -5,7 +5,9 @@ package com.epam.n.test;
  */
 public class MyFirstClass {
     public static void main(String[] args) {
-        String a= "Привет";
-        System.out.println(a);
+        String a = "Привет";
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(a);
+        }
     }
 }
